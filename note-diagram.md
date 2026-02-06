@@ -27,7 +27,6 @@ browser->>server: GET https://studies.cs.helsinki.fi/exampleapp/data.json
 activate server
 server-->>browser: the updated JSON file
 deactivate server
-
 ```
 
 
